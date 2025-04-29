@@ -1,9 +1,11 @@
+import { LOGO_URL } from "../utils/constants";
+
 const Header = () => {
     return (
       <div className="header">
         <div className="logo-container">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-HJgYuO5ggkAinuuO8aof4vKV1ECmgi7iuQ&s"
+            src= {LOGO_URL}
             alt="logo"
             className="logo"
           />
@@ -20,3 +22,4 @@ const Header = () => {
     );
   };
   
+export default Header;

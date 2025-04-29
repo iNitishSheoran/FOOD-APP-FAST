@@ -41,3 +41,9 @@
    cursor: pointer;
    border: 1px solid black; 
 }
+.filter-btn{
+    margin: 12px;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+}
