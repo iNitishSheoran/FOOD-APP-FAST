@@ -1,5 +1,6 @@
 import RestaurantCard from "./RestarantCard";
 import { useState, useEffect, use } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [resList, setResList] = useState([]);
@@ -16,7 +17,12 @@ const Body = () => {
     setResList(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   };
 
-  return (
+  // if ( resList.length === 0) {
+  //   return <Shimmer />;
+  // }
+  
+
+  return resList.length === 0 ? <Shimmer /> : (
     <div className="body">
       <div className="btn">
         <button
