@@ -17,12 +17,12 @@ const Body = () => {
     setResList(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   };
 
-  // if ( resList.length === 0) {
-  //   return <Shimmer />;
-  // }
+  if (!resList || resList.length === 0) {
+    return <Shimmer />;
+  }
   
 
-  return resList.length === 0 ? <Shimmer /> : (
+  return (
     <div className="body">
       <div className="btn">
         <button
