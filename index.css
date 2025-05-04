@@ -64,3 +64,20 @@
    padding: 0px 20px;
    cursor: pointer;
 }
+
+.btn{
+    display: flex;
+}
+
+.search-box{
+    margin: 12px;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.btn-search{
+    margin-right: 914px;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+}
