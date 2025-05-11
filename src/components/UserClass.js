@@ -9,8 +9,12 @@ class UserClass extends React.Component {
     // }
    }
 
-   componentDidMount() {
-    
+   async componentDidMount() {
+    //API call
+
+    const data = await fetch("https://api.github.com/users/iNitishSheoran");
+    const json = await data.json();
+    console.log(json);
    }
 
    render() {
