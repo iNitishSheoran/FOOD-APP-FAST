@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "build:css": "tailwindcss -i ./index.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "react",
@@ -14,11 +15,23 @@
   "author": "Nitish Sheoran",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "@tailwindcss/postcss": "^4.1.7",
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.14.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^6.30.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iNitishSheoran/FOOD-APP-FAST.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iNitishSheoran/FOOD-APP-FAST/issues"
+  },
+  "homepage": "https://github.com/iNitishSheoran/FOOD-APP-FAST#readme"
 }
