@@ -6,7 +6,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "build:css": "tailwindcss -i ./index.css -o ./dist/output.css --watch"
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "react",
