@@ -1,4 +1,4 @@
-<h1 align="center"><strong>🍴 FOOD APP FAST</strong></h1>
+<h1 align="center"><strong>🍴 FOOD APP FAST 🚚</strong></h1>
 
 <p align="center">
   <img src="logo.png" alt="Food App Fast Logo" width="104"/>
